@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "539222898342",
+    "project_id": "carpalsmartparkingfinder-bfa45",
+    "storage_bucket": "carpalsmartparkingfinder-bfa45.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539222898342:android:74774da48949cdcace2667",
+        "android_client_info": {
+          "package_name": "com.example.carpalsmartparkingfinder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3jzCRM0KvafA7Uh0ZD0wvE4X5-jxIlgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

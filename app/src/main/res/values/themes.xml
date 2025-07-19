@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme with Material Components compatibility -->
+    <style name="Theme.CarPalSmartParkingFinder" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorHint">@color/colorHint</item> <!-- Reference the color -->
+        <item name="android:textColorHint">?attr/colorHint</item> <!-- Ensure this propagates -->
+        <item name="colorOutline">@color/colorOutline</item>
+        <item name="android:statusBarColor">@color/colorPrimaryVariant</item>
+    </style>
+
+    <!-- Splash Screen Theme for Default Android Logo -->
+    <style name="Theme.SplashScreen" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item> <!-- White background -->
+        <item name="windowSplashScreenBackground">@android:color/white</item> <!-- White background -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_icon</item> <!-- Your logo -->
+        <item name="windowSplashScreenAnimationDuration">200</item> <!-- Duration for splash animation -->
+        <item name="postSplashScreenTheme">@style/Theme.MaterialComponents.Light</item>
+    </style>
+
+    <!-- Fallback Theme for older Android versions (uses MaterialComponents) -->
+    <style name="SplashTheme.Fallback" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <!-- Text Appearance (Updated to Material Components) -->
+    <style name="TextAppearance.AppCompat.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorOnBackground</item>
+    </style>
+
+    <!-- Button Style (Updated to Material Components button style) -->
+    <style name="Widget.AppCompat.Button.Colored" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Optional: Custom style for TextInputEditText (corrected parent) -->
+    <!-- Removed invalid parent; rely on theme attribute instead -->
+    <!-- <style name="Widget.TextInputEditText" parent="Widget.MaterialComponents.TextInputLayout">
+        <item name="android:textColorHint">?attr/colorHint</item>
+    </style> -->
+</resources>

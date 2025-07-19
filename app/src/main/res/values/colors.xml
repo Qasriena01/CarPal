@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color -->
+    <color name="colorPrimary">#1565C0</color>
+    <color name="colorPrimaryVariant">#003c8f</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <!-- Secondary color -->
+    <color name="colorSecondary">#03DAC5</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+
+    <!-- Background color -->
+    <color name="colorBackground">#F5F5F5</color>
+
+    <!-- Surface color (for cards, RecyclerView, etc.) -->
+    <color name="colorSurface">#FFFFFF</color>
+
+    <!-- On background text color -->
+    <color name="colorOnBackground">#212121</color>
+
+    <!-- On surface text color -->
+    <color name="colorOnSurface">#212121</color>
+
+    <!-- Accent color -->
+    <color name="colorAccent">#FF5722</color>
+
+    <!-- Status Bar color -->
+    <color name="statusBarColor">#003c8f</color>
+
+    <!-- Splash screen background color -->
+    <color name="splash_background_color">#FFFFFF</color>
+
+    <!-- Hint color (for text input placeholders) -->
+    <color name="colorHint">#757575</color>
+
+    <!-- Outline color (for TextInputLayout borders) -->
+    <color name="colorOutline">#B0BEC5</color>
+
+    <color name="white">#FFFFFF</color>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Share Icon (ImageButton) at Top-Right -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+        <ImageButton
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_share"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_gravity="end" />
+    </FrameLayout>
+
+    <!-- Other Buttons Aligned to the Right -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnDirections"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Directions"
+            android:textColor="#0000FF"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_gravity="end"
+        android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnReportFull"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Report Full"
+            android:textColor="#0000FF"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_gravity="end"
+        android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnUseSpot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use Parking Spot"
+            android:textColor="#0000FF"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_gravity="end" />
+    </LinearLayout>
+</LinearLayout>
